@@ -37,8 +37,9 @@ Aplikacja React do zarządzania rezerwacjami spotkań z funkcjonalnością PWA, 
 ### Kroki instalacji
 
 1. **Klonowanie repozytorium**
-   git clone [url-repozytorium]
-   cd meeting-reservations
+   git clone https://github.com/pigrochowski/meeting-reservations-app.git
+   cd meeting-reservations-app
+
 
 2. **Instalacja zależności**
    npm install
