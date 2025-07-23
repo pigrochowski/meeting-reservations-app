@@ -2,23 +2,23 @@
 
 Aplikacja React do zarządzania rezerwacjami spotkań z funkcjonalnością PWA, napisana w TypeScript z wykorzystaniem Material-UI.
 
-## 🚀 Funkcjonalności
+## Funkcjonalności
 
-### ✅ Podstawowe funkcje
+### Podstawowe funkcje
 
 - **System logowania** - bezpieczna autoryzacja użytkowników
 - **Zarządzanie spotkaniami** - dodawanie, edycja i usuwanie spotkań
 - **Zarządzanie uczestnikami** - dodawanie email uczestników do spotkań
 - **Responsywny design** - Material-UI zapewnia nowoczesny wygląd
 
-### 🎯 Zaawansowane funkcje
+### Zaawansowane funkcje
 
 - **Filtrowanie spotkań** - po tekście, statusie i zakresie dat
 - **Sortowanie** - według daty, tytułu lub kolejności dodania
 - **Wyszukiwanie w czasie rzeczywistym** - błyskawiczne znajdowanie spotkań
 - **PWA (Progressive Web App)** - możliwość instalacji jako aplikacja
 
-## 🛠️ Technologie
+## Technologie
 
 - **Frontend**: React 18 + TypeScript
 - **Zarządzanie stanem**: Redux Toolkit
@@ -27,7 +27,7 @@ Aplikacja React do zarządzania rezerwacjami spotkań z funkcjonalnością PWA, 
 - **Style**: Emotion (CSS-in-JS)
 - **PWA**: Service Workers + Web App Manifest
 
-## 📦 Instalacja
+## Instalacja
 
 ### Wymagania
 
@@ -49,40 +49,20 @@ Aplikacja React do zarządzania rezerwacjami spotkań z funkcjonalnością PWA, 
 
 Aplikacja uruchomi się na `http://localhost:3000`
 
-## 🔑 Logowanie (Demo)
+## Logowanie (Demo)
 
 Użyj tych danych do zalogowania:
 
 - **Email**: admin@test.com
 - **Hasło**: admin123
 
-## 📱 Instalacja PWA
+## Instalacja PWA
 
 1. Otwórz aplikację w przeglądarce Chrome/Edge
 2. Kliknij ikonę "Zainstaluj" w pasku adresu
 3. Potwierdź instalację
 4. Aplikacja zostanie dodana do menu/pulpitu
 
-## 🏗️ Struktura projektu
-
-src/
-├── components/ # Komponenty React
-│ ├── auth/ # Komponenty autoryzacji
-│ │ └── LoginForm.tsx
-│ ├── meetings/ # Komponenty spotkań
-│ │ ├── MeetingCard.tsx
-│ │ ├── MeetingForm.tsx
-│ │ └── MeetingList.tsx
-│ └── Dashboard.tsx # Główny dashboard
-├── store/ # Redux store
-│ ├── store.ts
-│ └── authSlice.ts
-├── types/ # Definicje TypeScript
-│ └── index.ts
-├── theme.ts # Konfiguracja Material-UI
-└── App.tsx # Główny komponent
-
-## 🎨 Interfejs użytkownika
 
 ### Strona logowania
 
@@ -102,14 +82,14 @@ src/
 - Walidacja pól formularza
 - Zarządzanie listą uczestników
 
-## 🔍 Funkcje filtrowania
+## funkcje filtrowania
 
 - **Wyszukiwanie tekstowe** - po tytule i opisie
 - **Filtr statusu** - zaplanowane/anulowane/wszystkie
 - **Zakres dat** - od/do określonej daty
 - **Sortowanie** - po dacie, tytule lub kolejności
 
-## 📋 Dostępne skrypty
+## Dostępne skrypty
 
 npm start # Uruchomienie w trybie development
 npm run build # Budowanie wersji produkcyjnej
